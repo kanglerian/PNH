@@ -448,6 +448,10 @@ body {
 
 /* Help */
 
+.help h4 {
+    font-size: 18px;
+}
+
 .help {
     padding-top: 35px;
     padding-bottom: 30px;
@@ -456,7 +460,7 @@ body {
 }
 
 .help .btn-package {
-    margin-top: -5px;
+    margin-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 8px;
@@ -518,6 +522,505 @@ body {
 
 
 /* End Footer */
+
+@media (min-width: 576px) {
+    /* Navbar */
+    .navbar ul li a {
+        margin-left: 10px;
+    }
+    /* End Navbar */
+    /* Hero Banner */
+    .hero-banner {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .hero-banner h1 {
+        margin-top: 45px;
+    }
+    .hero-banner h4 {
+        margin-bottom: 20px;
+    }
+    .hero-banner img {
+        margin-left: -30px;
+        margin-top: -2px;
+        margin-right: 8px;
+    }
+    .hero-banner ul li {
+        margin-left: -10px;
+    }
+    /* End Hero Banner */
+    /* Features */
+    .features {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .features p {
+        margin-top: 20px;
+    }
+    /* End Features */
+    /* Package */
+    .bestseller {
+        margin-top: 10px;
+    }
+    .package-card {
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+    .package .package-user-active {
+        margin-top: 0px;
+    }
+    .package-header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .package h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .package h5 {
+        margin-bottom: -10px;
+    }
+    .package h6 {
+        padding-top: 12px;
+        padding-bottom: 14px;
+    }
+    .package-body {
+        margin-top: -8px;
+        padding-bottom: 30px;
+    }
+    .package .btn-active {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .package .btn-package {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .package .start {
+        color: #007FDE;
+    }
+    .package .package-price {
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .package ul {
+        padding-top: 20px;
+    }
+    .package ul li {
+        font-size: 14px;
+        margin-left: -40px;
+    }
+    .package .btn {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    /* End Package   */
+    /* Powerfull */
+    .powerfull {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .powerfull .anu {
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .powerfull-list {
+        margin-top: 30px;
+    }
+    .bar {
+        margin-top: 40px;
+    }
+    /* End Powerfull */
+    /* Hosting */
+    .hosting {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .hosting h4 {
+        margin-bottom: 40px;
+    }
+    .hosting img {
+        margin-bottom: 30px;
+    }
+    /* End Hosting */
+    /* Action */
+    .action {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .action img {
+        margin-left: -28px;
+        margin-top: -2px;
+        margin-right: 8px;
+    }
+    .action p {
+        font-size: 20px;
+    }
+    .action ul li {
+        font-size: 17px;
+        margin-left: 0px;
+    }
+    .action .note {
+        font-size: 15px;
+        margin-left: -27px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .action .btn-active {
+        margin-left: -25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Action */
+    /* Modul */
+    .modul {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .modul-list {
+        margin-top: 50px;
+    }
+    .modul ul li {
+        margin-left: 40px;
+    }
+    .modul p {
+        margin-bottom: 0px;
+    }
+    .modul .btn-package {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Modul */
+    /* Info */
+    .info {
+        padding-top: 40px;
+    }
+    .info p {
+        font-size: 15px;
+    }
+    .info h3 {
+        margin-bottom: 23px;
+    }
+    .info p {
+        margin-bottom: 23px;
+    }
+    .info .btn-active {
+        margin-left: 0px;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Info */
+    /* Share */
+    .share {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .share ul li {
+        margin-right: 20px;
+    }
+    .share ul li img {
+        margin-top: -2px;
+        margin-left: -2px;
+        margin-right: 7px;
+    }
+    .share ul li a {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    /* End Share */
+    /* Help */
+    .help h4 {
+        font-size: 20px;
+    }
+    .help {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .help .btn-package {
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Help */
+    /* Footer */
+    .footer {
+        padding-top: 50px;
+    }
+    .footer ul li {
+        margin-bottom: 5px;
+    }
+    .footer .header {
+        margin-bottom: 15px;
+    }
+    .footer a {
+        margin-right: 15px;
+    }
+    /* End Footer */
+}
+
+@media (min-width: 768px) {
+    /* Navbar */
+    .navbar ul li a {
+        margin-left: 10px;
+    }
+    /* End Navbar */
+    /* Hero Banner */
+    .hero-banner {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .hero-banner h1 {
+        margin-top: 45px;
+    }
+    .hero-banner h4 {
+        margin-bottom: 20px;
+    }
+    .hero-banner img {
+        margin-left: -30px;
+        margin-top: -2px;
+        margin-right: 8px;
+    }
+    .hero-banner ul li {
+        margin-left: -10px;
+    }
+    /* End Hero Banner */
+    /* Features */
+    .features {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .features p {
+        margin-top: 20px;
+    }
+    /* End Features */
+    /* Package */
+    .bestseller {
+        margin-top: 10px;
+    }
+    .package-card {
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+    .package .package-user-active {
+        margin-top: 0px;
+    }
+    .package-header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .package h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .package h5 {
+        margin-bottom: -10px;
+    }
+    .package h6 {
+        padding-top: 12px;
+        padding-bottom: 14px;
+    }
+    .package-body {
+        margin-top: -8px;
+        padding-bottom: 30px;
+    }
+    .package .btn-active {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .package .btn-package {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .package .start {
+        color: #007FDE;
+    }
+    .package .package-price {
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .package ul {
+        padding-top: 20px;
+    }
+    .package ul li {
+        font-size: 14px;
+        margin-left: -40px;
+    }
+    .package .btn {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    /* End Package   */
+    /* Powerfull */
+    .powerfull {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .powerfull .anu {
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .powerfull-list {
+        margin-top: 30px;
+    }
+    .bar {
+        margin-top: 40px;
+    }
+    /* End Powerfull */
+    /* Hosting */
+    .hosting {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .hosting h4 {
+        margin-bottom: 40px;
+    }
+    .hosting img {
+        margin-bottom: 30px;
+    }
+    /* End Hosting */
+    /* Action */
+    .action {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .action img {
+        margin-left: -28px;
+        margin-top: -2px;
+        margin-right: 8px;
+    }
+    .action p {
+        font-size: 20px;
+    }
+    .action ul li {
+        font-size: 17px;
+        margin-left: 0px;
+    }
+    .action .note {
+        font-size: 15px;
+        margin-left: -27px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .action .btn-active {
+        margin-left: -25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Action */
+    /* Modul */
+    .modul {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .modul-list {
+        margin-top: 50px;
+    }
+    .modul ul li {
+        margin-left: 40px;
+    }
+    .modul p {
+        margin-bottom: 0px;
+    }
+    .modul .btn-package {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Modul */
+    /* Info */
+    .info {
+        padding-top: 40px;
+    }
+    .info p {
+        font-size: 15px;
+    }
+    .info h3 {
+        margin-bottom: 23px;
+    }
+    .info p {
+        margin-bottom: 23px;
+    }
+    .info .btn-active {
+        margin-left: 0px;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Info */
+    /* Share */
+    .share {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .share ul li {
+        margin-right: 20px;
+    }
+    .share ul li img {
+        margin-top: -2px;
+        margin-left: -2px;
+        margin-right: 7px;
+    }
+    .share ul li a {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    /* End Share */
+    /* Help */
+    .help {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .help .btn-package {
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Help */
+    /* Footer */
+    .footer {
+        padding-top: 50px;
+    }
+    .footer ul li {
+        margin-bottom: 5px;
+    }
+    .footer .header {
+        margin-bottom: 15px;
+    }
+    .footer a {
+        margin-right: 15px;
+    }
+    /* End Footer */
+}
 
 @media (min-width: 992px) {
     /* Navbar */
