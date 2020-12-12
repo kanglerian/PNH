@@ -11,9 +11,22 @@ body {
     background-color: #ffffff;
 }
 
+.information .alert {
+    margin-top: -8px;
+    margin-bottom: -10px;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.1s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
 .information a {
     font-size: 12px;
     color: #646464;
+    text-decoration: none;
 }
 
 .information .list {
@@ -50,6 +63,7 @@ body {
 /* Navbar */
 
 .navbar {
+    text-align: center;
     border-style: solid;
     border-color: #DCDCDC;
     border-width: 0px 0px 1px 0.1px;
@@ -81,23 +95,51 @@ body {
 .hero-banner h1 {
     font-weight: 600;
     margin-top: 45px;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.3s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
 }
 
 .hero-banner h4 {
     font-weight: 400;
     margin-bottom: 20px;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.4s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
 }
 
 .hero-banner img {
     margin-left: -30px;
     margin-top: -2px;
     margin-right: 8px;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.2s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
 }
 
 .hero-banner ul li {
     font-size: 14px;
     margin-left: -10px;
     list-style-type: none;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
 }
 
 
@@ -111,9 +153,26 @@ body {
     padding-bottom: 50px;
 }
 
+.features img {
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
 .features p {
     font-size: 14px;
     margin-top: 20px;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.6s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
 }
 
 
@@ -130,12 +189,26 @@ body {
     margin-top: 10px;
     position: absolute;
     z-index: 99;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.8s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
 }
 
 .package-card {
     margin-top: 10px;
     padding-top: 0px;
     border-radius: 15px;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.8s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
 }
 
 .package-card-active {
@@ -169,18 +242,32 @@ body {
     text-decoration: line-through;
 }
 
+.package h3 {
+    font-weight: 600;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.7s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
 .package h4 {
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 400;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.8s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
 }
 
 .package .bg-white {
     color: #646464;
-}
-
-.package h3 {
-    font-weight: 600;
 }
 
 .package h5 {
@@ -259,14 +346,6 @@ body {
     padding-top: 40px;
     text-align: center;
     padding-bottom: 40px;
-}
-
-.powerfull .anu {
-    border: 1px solid #646464;
-    margin-top: 20px;
-    padding-top: 10px;
-    padding-bottom: 0px;
-    background-color: #ffffff;
 }
 
 .powerfull img {
@@ -1527,4 +1606,16 @@ body {
         margin-right: 15px;
     }
     /* End Footer */
+}
+
+
+/* CSS Animation */
+
+@keyframes popup {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
