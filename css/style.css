@@ -517,6 +517,7 @@ body {
     font-size: 13px;
     list-style-type: none;
     margin-bottom: 5px;
+    margin-left: -23px;
 }
 
 .footer .header {
