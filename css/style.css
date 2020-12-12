@@ -629,6 +629,11 @@ body {
     font-weight: 300;
 }
 
+.footer ul.payment li {
+    margin-right: 40px;
+    display: inline;
+}
+
 
 /* End Footer */
 
